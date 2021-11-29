@@ -185,6 +185,8 @@ ul {
 /* Hero */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--contrast-background-color);
   text-align: center;
 }
@@ -269,15 +271,18 @@ ul {
 }
 
 .team-item {
-  padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
 
   text-align: center;
   background-color: var(--primary-background-color);
 }
 
-.employee-name {
+.employee-wrapper {
   padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.employee-name {
   padding-bottom: 10px;
   
   font-weight: 500;
@@ -343,15 +348,12 @@ ul {
 /* Footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--contrast-background-color);
 }
 
-.footer-content {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.footer-content>.logo {
+.footer .logo {
   display: inline-block;
   padding-bottom: 20px;
 
