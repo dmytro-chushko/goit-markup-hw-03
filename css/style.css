@@ -89,8 +89,12 @@ ul {
   text-align: center;
 }
 
-.hidden-title {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 /* Header */
@@ -367,7 +371,7 @@ ul {
 
 .address>.contacts-link{
   display: inline-block;
-  padding-top: 9px;
+  margin-top: 9px;
   
   line-height: 1.71;
   color: var(--contacts-text-color);
